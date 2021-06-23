@@ -5,21 +5,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="formatação/estilo.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="/formatação/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="/formatação/owl/owl.theme.default.min.css">
+
     <title>GAMEFLIX</title>
 </head>
 
 <body>
     <header>
-        <div class="topo">
-            <h2>GAMEFLIX</h2>
+        <div class="conteudo">
+            <h2 class="logo">GAMEFLIX</h2>
             <nav>
                 <a href="#">Inicio</a>
-                <a href="#">Jogos Classicos</a>
-                <a href="#">Exclusivos Playstation</a>
-                <a href="#">Jogos Ubisoft</a>
+                <a href="#">Classicos</a>
+                <a href="#">Ex. Playstation</a>
+                <a href="#">Ubisoft</a>
             </nav>
         </div>
     </header>
+
+    <main>
+        <div class="jogo-em-destaque">
+            <div class="conteudo">
+                <h3 class="nome-P">GTA V</h3>
+                <p class="descricao">Los Santos: uma vasta metrópole ensolarada repleta de gurus de autoajuda, estrelas de cinema e celebridades em decadência, que já foram o orgulho do mundo ocidental e que agora lutam para se manterem em uma época de incerteza econômica
+                    e reality shows baratos.</p>
+                <div class="botoes">
+                    <button role="button" class="botao">
+                    <i class="fas fa-play"></i>
+                    JOGAR AGORA
+                    </button>
+                    <button role="button" class="botao">
+                    <i class="fas fa-info"></i>
+                    MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="carrosel-jogos">
+        <div class="owl-carousel owl-theme">
+            <div class="jogos">
+                <img class="caixa-jogos" src="imag/jogo1.jpg" alt="" srcset="">
+            </div>
+            <div class="jogos">
+                <img class="caixa-jogos" src="imag/jogo2.jpg" alt="" srcset="">
+            </div>
+            <div class="jogos">
+                <img class="caixa-jogos" src="imag/jogo3.jpg" alt="" srcset="">
+            </div>
+            <div class="jogos">
+                <img class="caixa-jogos" src="imag/jogo4.jpg" alt="" srcset="">
+            </div>
+            <div class="jogos">
+                <img class="caixa-jogos" src="imag/jogo5.jpg" alt="" srcset="">
+            </div>
+            <div class="jogos">
+                <img class="caixa-jogos" src="imag/jogo6.jpg" alt="" srcset="">
+            </div>
+            <div class="jogos">
+                <img class="caixa-jogos" src="imag/jogo7.jpg" alt="" srcset="">
+            </div>
+            <div class="jogos">
+                <img class="caixa-jogos" src="imag/jogo8.jpg" alt="" srcset="">
+            </div>
+            <div class="jogos">
+                <img class="caixa-jogos" src="imag/jogo9.jpg" alt="" srcset="">
+            </div>
+            <div class="jogos">
+                <img class="caixa-jogos" src="imag/jogo10.jpg" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/7753857135.js"></script>
+    <script src="/javascript/owl/jquery.min.js"></script>
+    <script src="/javascript/owl/owl.carousel.min.js"></script>
+    <script src="javascript/carrosel.js"></script>
+
 </body>
 
 </html>
