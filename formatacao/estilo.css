@@ -1,6 +1,6 @@
 :root {
-    --cor-primaria: #e50914;
-    --cor-secundaria: #141414;
+    --cor-primaria: #097023;
+    --cor-secundaria: #000000;
 }
 
 * {
@@ -15,7 +15,7 @@
 body {
     background-color: var(--cor-secundaria);
     font-family: 'Arial', Times, serif;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 header .conteudo {
@@ -34,12 +34,12 @@ header .logo {
 
 header nav a {
     text-decoration: none;
-    color: #aaa;
+    color: rgb(15, 97, 26);
     margin-right: 10px;
 }
 
 header nav a:hover {
-    color: #fff;
+    color: rgb(155, 20, 20);
 }
 
 
@@ -58,16 +58,18 @@ header nav a:hover {
 
 .jogo-em-destaque .descricao {
     margin-bottom: 40px;
+    margin-top: 10px;
 }
 
 .jogo-em-destaque .nome-P {
     margin-top: 15%;
     font-size: 40px;
+    color: rgb(155, 20, 20);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .botao {
-    background-color: rgba(0, 0, 0, .50);
+    background-color: rgba(12, 90, 19, 0.5);
     border: none;
     color: white;
     padding: 15px 30px;
@@ -79,7 +81,7 @@ header nav a:hover {
 
 .botao:hover {
     background-color: white;
-    color: black;
+    color: rgb(12, 90, 19);
 }
 
 .botao i {
