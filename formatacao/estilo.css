@@ -102,6 +102,18 @@ header nav a:hover {
     display: block;
 }
 
-.carrosel-jogos {
+.carrosel-jogos-recentes {
+    margin-top: 5px;
+}
+
+.carrosel-jogos-terror {
+    margin-top: 5px;
+}
+
+.carrosel-jogos-playstation {
+    margin-top: 5px;
+}
+
+.carrosel-jogos-classicos {
     margin-top: 5px;
 }
