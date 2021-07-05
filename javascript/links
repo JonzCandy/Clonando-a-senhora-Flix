@@ -1,0 +1,7 @@
+function redirecionar() {
+    window.open("https://www.youtube.com/watch?v=I6-Ar6J_5bg");
+}
+
+function redirecionar2() {
+    window.open("https://www.rockstargames.com/V/br");
+}
