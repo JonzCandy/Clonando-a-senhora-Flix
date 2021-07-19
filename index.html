@@ -7,6 +7,7 @@
 
     <!--estilizacao da pagina-->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/expand.css">
 
     <!--owl css-->
     <link rel="stylesheet" href="/css/owl/owl.carousel.min.css">
@@ -16,13 +17,6 @@
 </head>
 
 <body>
-
-    <script src="https://kit.fontawesome.com/7753857135.js"></script>
-    <script src="/javascript/owl/jquery.min.js"></script>
-    <script src="/javascript/owl/owl.carousel.min.js"></script>
-    <script src="javascript/carrosel.js"></script>
-    <script src="/javascript/links"></script>
-
     <header>
         <div class="conteudo">
             <h2 class="logo">GAMEFLIX</h2>
@@ -44,21 +38,28 @@
                 <p class="descricao">Los Santos: uma vasta metrópole ensolarada repleta de gurus de autoajuda, estrelas de cinema e celebridades em decadência, que já foram o orgulho do mundo ocidental e que agora lutam para se manterem em uma época de incerteza econômica
                     e reality shows baratos.</p>
                 <div class="botoes">
-                    <button role="button" class="botao" onclick="redirecionar()">
-                    <i class="fas fa-play"></i>
-                    JOGAR AGORA
-                    </button>
-                    <button role="button" class="botao" onclick="redirecionar2()"> 
-                    <i class="fas fa-info"></i>
-                    MAIS INFORMAÇÕES
-                    </button>
+                    <a href="https://www.youtube.com/watch?v=I6-Ar6J_5bg" target="_blanked">
+                        <button role="button" class="botao">
+                        <i class="fas fa-play"></i>
+                        JOGAR AGORA
+                        </button>
+                    </a>
+                    <a href="https://www.rockstargames.com/V/br" target="_blanked">
+                        <button role="button" class="botao" onclick="redirecionar2()"> 
+                        <i class="fas fa-info"></i>
+                        MAIS INFORMAÇÕES
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>
     </main>
 
     <div class="carrosel-jogos-recentes">
-        <div class="owl-carousel owl-theme">
+        <h3 class="titulo">Mais Visitados</h3>
+    </div>
+    <div class="carrosel-jogos-recentes">
+        <div class="owl-carousel owl-theme owl-loaded owl-drag">
             <div class="jogos">
                 <img class="caixa-jogos" src="img/jogo1.jpg" alt="" srcset="">
             </div>
@@ -220,6 +221,11 @@
             </div>
         </div>
     </div>
+
+    <script src="https://kit.fontawesome.com/7753857135.js"></script>
+    <script src="javascript/owl/jquery.min.js"></script>
+    <script src="javascript/owl/owl.carousel.min.js"></script>
+    <script src="javascript/carrosel.js"></script>
 
 </body>
 
