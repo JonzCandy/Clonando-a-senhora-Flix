@@ -9,6 +9,23 @@
     box-sizing: border-box;
 }
 
+@media screen and (max-width: 700px) {
+    header .conteudo {
+        display: flex;
+        flex-direction: column;
+    }
+    .botao {
+        margin-top: 5px;
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .descricao {
+        width: 50%;
+    }
+}
+
 
 /*Elementos Gerais*/
 
@@ -47,7 +64,7 @@ header nav a:hover {
 
 .jogo-em-destaque {
     font-size: 16px;
-    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('/imag/capa-abertura.jpg');
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('/img/capa-abertura.jpg');
     height: 400px;
     background-size: cover;
     display: flex;
